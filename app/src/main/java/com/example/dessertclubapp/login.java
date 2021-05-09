@@ -86,6 +86,9 @@ public class login extends AppCompatActivity {
             }
         });
 
+
+
+
         //Connect to SignUp Button
         button_signup= (Button) findViewById(R.id.button_signup);
         button_signup.setOnClickListener(new View.OnClickListener() {
@@ -104,8 +107,8 @@ public class login extends AppCompatActivity {
         });
      }
      private void  openuser_register(){
-         Intent intent1=new Intent(this, user_register.class);
-         startActivity(intent1);
+        // Intent intent1=new Intent(this, user_register.class);
+         //startActivity(intent1);
      }
 
      private void open_forogotPassword(){

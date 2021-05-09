@@ -59,6 +59,7 @@ public class InquiryAdd extends AppCompatActivity {
         btnnext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 openActivityinq();
             }
         });

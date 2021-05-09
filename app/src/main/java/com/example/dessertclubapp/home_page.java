@@ -11,7 +11,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class home_page extends AppCompatActivity {
 
-    private Button btn_logout;
+    private Button btn_logout,btn;
     private Button btn_menu;
     private FirebaseAuth firebaseAuth;
     private FirebaseAuth.AuthStateListener firebaseAuthListner;
@@ -32,12 +32,22 @@ public class home_page extends AppCompatActivity {
             }
         });
 
+        btn = (Button)findViewById(R.id.button);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intex = new Intent(home_page.this ,UserProfile.class);
+                startActivity(intex);
+            }
+        });
+
+
         btn_menu=findViewById(R.id.button_menu_page);
         btn_menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               // Intent intent1= new Intent(home_page.this, menu.class);
-                //startActivity(intent1);
+                Intent intent1= new Intent(home_page.this, login.class);
+                startActivity(intent1);
             }
         });
     }
