@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardPudding"
+            android:layout_width="395dp"
+            android:layout_height="219dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgPudding"
+                    android:layout_width="match_parent"
+                    android:layout_height="173dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/c" />
+
+                <TextView
+                    android:id="@+id/puddingMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_orange_light"
+                    android:fontFamily="@font/aladin"
+                    android:gravity="center"
+                    android:text="@string/pudding_menu"
+                    android:textColor="@color/black"
+                    android:textSize="32sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardCake"
+            android:layout_width="395dp"
+            android:layout_height="219dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgCake"
+                    android:layout_width="match_parent"
+                    android:layout_height="182dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/black_forest" />
+
+                <TextView
+                    android:id="@+id/cakeMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_orange_light"
+                    android:fontFamily="@font/aladin"
+                    android:gravity="center"
+                    android:text="@string/cakes_menu"
+                    android:textColor="@color/black"
+                    android:textSize="32sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardIce"
+            android:layout_width="395dp"
+            android:layout_height="219dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgIcecream"
+                    android:layout_width="match_parent"
+                    android:layout_height="182dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/origin" />
+
+                <TextView
+                    android:id="@+id/ice_creamMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_orange_light"
+                    android:fontFamily="@font/aladin"
+                    android:gravity="center"
+                    android:text="@string/icecream"
+                    android:textColor="@color/black"
+                    android:textSize="32sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardMousse"
+            android:layout_width="395dp"
+            android:layout_height="219dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgMousse"
+                    android:layout_width="match_parent"
+                    android:layout_height="182dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/moose1" />
+
+                <TextView
+                    android:id="@+id/mousseMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_orange_light"
+                    android:fontFamily="@font/aladin"
+                    android:gravity="center"
+                    android:text="@string/mousse_menu"
+                    android:textColor="@color/black"
+                    android:textSize="32sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>
