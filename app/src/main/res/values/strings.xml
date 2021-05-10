@@ -91,4 +91,89 @@
         <item>Blueberry</item>
         <item>Other</item>
     </string-array>
+
+    <string name="pudding_menu">PUDDING</string>
+    <string name="cakes_menu">CAKE</string>
+    <string name="icecream">ICE CREAM</string>
+    <string name="mousse_menu">MOUSSE</string>
+
+    <string name="caramelpudding">Caramel Pudding</string>
+    <string name="biscuit">Biscuit Pudding</string>
+    <string name="bread">Bread Pudding</string>
+    <string name="rainbow">Rainbow Pudding</string>
+    <string name="marshmello">Marshmello Pudding</string>
+    <string name="watalappan">Watalappan</string>
+
+    <string name="caramel_200">Rs.200</string>
+    <string name="biscuit_price">Rs.150</string>
+    <string name="bread_price">Rs.250</string>
+    <string name="rainbow_price">Rs.200</string>
+    <string name="marshmello_price">Rs.300</string>
+    <string name="watalappan_price">Rs.125</string>
+    <string name="add_caramel">ADD</string>
+    <string name="add_biscuit">ADD</string>
+    <string name="add_bread">ADD</string>
+    <string name="add_rainbow">ADD</string>
+    <string name="add_marshmello">ADD</string>
+    <string name="add_watalappan">ADD</string>
+
+    <string name="chocolate">Chocolate Cake</string>
+    <string name="forest">Black Forest Cake</string>
+    <string name="vanilla">Vanilla Cake</string>
+    <string name="cheese">Cheese Cake</string>
+    <string name="velvet">Red Velvet Cake</string>
+    <string name="fudge">Chocolate Fudge Cake</string>
+    <string name="chocolate_price">Rs.3000</string>
+    <string name="add_chocolate">ADD</string>
+    <string name="black_price">Rs.3200</string>
+    <string name="add_black">ADD</string>
+    <string name="vanilla_price">Rs.3300</string>
+    <string name="add_vanilla">ADD</string>
+    <string name="cheese_price">Rs.4000</string>
+    <string name="add_cheese">ADD</string>
+    <string name="velvet_price">Rs.3500</string>
+    <string name="add_velvet">ADD</string>
+    <string name="fudge_price">Rs.4000</string>
+    <string name="add_fudge">ADD</string>
+
+    <string name="blueberry1">Blue Berry Ice Cream</string>
+    <string name="butterscotch">Butterscotch Ice Cream</string>
+    <string name="chocochip">Chocolate Chip Ice Cream</string>
+    <string name="oreo">Oreo Ice Cream</string>
+    <string name="mint">Mint Chocolate Ice Cream</string>
+
+    <string name="choco_mousse">Chocolate Mousse</string>
+    <string name="mousse_cake">Mousse Cake</string>
+    <string name="lemon_mousse">Lemon Mousse</string>
+    <string name="strawberry_mousse">Strawberry Mousse</string>
+    <string name="berry_price">Rs.250</string>
+    <string name="add_berry">ADD</string>
+    <string name="butterscotch_price">Rs.225</string>
+    <string name="add_butterscotch">ADD</string>
+    <string name="chip_price">Rs.250</string>
+    <string name="add_chip">ADD</string>
+    <string name="oreo_price">Rs.350</string>
+    <string name="add_oreo">ADD</string>
+    <string name="mint_price">Rs.250</string>
+    <string name="add_mint">ADD</string>
+    <string name="cart_list">Cart List</string>
+    <string name="orders">Orders</string>
+    <string name="pudding_list">Pudding List</string>
+    <string name="add_to_cart">Add To Cart</string>
+
+    <string name="my_orders">MY ORDERS</string>
+    <string name="blueberry">Blue Berry</string>
+    <string name="biscuitpudding">Biscuit Pudding</string>
+    <string name="rupees250">Rs.250</string>
+    <string name="rupees150">Rs.150</string>
+    <string name="_1">×1</string>
+    <string name="_2">×2</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <string name="update1">UPDATE</string>
+    <string name="delete1">DELETE</string>
+    <string name="total">Total</string>
+    <string name="rs_550">Rs.550</string>
+    <string name="place_order">Place Order</string>
+
 </resources>
