@@ -4,109 +4,110 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserProfile"
-    android:background="@drawable/bluebg">
+    android:background="@drawable/bluebg"
+    tools:context=".UserProfile">
 
 
     <TextView
         android:id="@+id/heading1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25sp"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="40dp"
+        android:text="My Account"
+        android:textSize="40sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="15dp"
-         />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textnameTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#A9A9A9"
-        app:layout_constraintTop_toBottomOf="@+id/heading1"
-        app:layout_constraintLeft_toLeftOf="@+id/heading1"/>
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading1" />
 
     <TextView
         android:id="@+id/textname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
         android:textColor="#8B008B"
         android:textSize="25sp"
-        app:layout_constraintTop_toBottomOf="@+id/textnameTitle"
-        app:layout_constraintLeft_toLeftOf="@+id/textnameTitle"/>
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textnameTitle" />
 
     <TextView
         android:id="@+id/textemailTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/textname"
-        app:layout_constraintLeft_toLeftOf="@+id/heading1"/>
+        app:layout_constraintLeft_toLeftOf="@+id/heading1"
+        app:layout_constraintTop_toBottomOf="@+id/textname" />
 
     <TextView
         android:id="@+id/textemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
         android:textColor="#8B008B"
-        android:textSize="21sp"
-        app:layout_constraintTop_toBottomOf="@+id/textemailTitle"
-        app:layout_constraintLeft_toLeftOf="@+id/textemailTitle"/>
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textemailTitle" />
 
     <TextView
         android:id="@+id/textphoneTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/textemail"
-        app:layout_constraintLeft_toLeftOf="@+id/heading1" />
+        app:layout_constraintLeft_toLeftOf="@+id/heading1"
+        app:layout_constraintTop_toBottomOf="@+id/textemail" />
 
     <TextView
         android:id="@+id/textphone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
         android:textColor="#8B008B"
         android:textSize="25sp"
-        app:layout_constraintTop_toBottomOf="@+id/textphoneTitle"
-        app:layout_constraintLeft_toLeftOf="@+id/textphoneTitle"/>
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textphoneTitle" />
 
     <TextView
         android:id="@+id/textcityTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/textphone"
         app:layout_constraintLeft_toLeftOf="@+id/heading1"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/textphone" />
 
     <TextView
         android:id="@+id/textcity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
         android:textColor="#8B008B"
         android:textSize="25sp"
-        app:layout_constraintTop_toBottomOf="@+id/textcityTitle"
-        app:layout_constraintLeft_toLeftOf="@+id/textcityTitle"
-         />
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textcityTitle" />
 
     <TextView
         android:id="@+id/textstreetTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/textcity"
         app:layout_constraintLeft_toLeftOf="@+id/heading1"
-         />
+        app:layout_constraintTop_toBottomOf="@+id/textcity" />
 
     <TextView
         android:id="@+id/textstreet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
         android:textColor="#8B008B"
         android:textSize="25sp"
-        app:layout_constraintTop_toBottomOf="@+id/textstreetTitle"
-        app:layout_constraintLeft_toLeftOf="@+id/textstreetTitle"
-         />
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textstreetTitle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

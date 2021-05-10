@@ -12,23 +12,18 @@
         <activity
             android:name=".forgotPassword"
             android:exported="true" />
-
         <activity
             android:name=".InquiryAdd"
             android:exported="true" />
-
         <activity
             android:name=".InquiryRetrieve"
             android:exported="true" />
-
         <activity
             android:name=".UserProfile"
             android:exported="true" />
-
         <activity
             android:name=".user_register"
             android:exported="true" />
-
         <activity
             android:name=".home_page"
             android:exported="true" />
@@ -36,7 +31,6 @@
             android:name=".login"
             android:exported="true" />
         <activity android:name=".Activity_cover">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
