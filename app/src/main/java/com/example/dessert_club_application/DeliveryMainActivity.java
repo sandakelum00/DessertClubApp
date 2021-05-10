@@ -68,7 +68,7 @@ public class DeliveryMainActivity extends AppCompatActivity {
                 else{
                     Place DeliveryMainActivity = new Place(Id,province,street,city,phone);
                     database.child(Id).setValue(DeliveryMainActivity);
-                    Toast.makeText(DeliveryMainActivity.this, "Done", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(com.example.dessert_club_application.DeliveryMainActivity.this, "Done", Toast.LENGTH_SHORT).show();
 
                 }
             }

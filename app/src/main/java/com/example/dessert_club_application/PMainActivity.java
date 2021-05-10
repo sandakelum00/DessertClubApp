@@ -73,7 +73,7 @@ public class PMainActivity extends AppCompatActivity {
         btnView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i= new Intent(PMainActivity.this,Payment.class);
+                Intent i= new Intent(PMainActivity.this, Payment.class);
                 startActivity(i);
                 finish();
 

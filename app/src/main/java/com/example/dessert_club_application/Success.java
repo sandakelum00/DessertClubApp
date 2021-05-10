@@ -19,7 +19,7 @@ public class Success extends AppCompatActivity {
         btnContinue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(Success.this,DeliveryMainActivity.class);
+                Intent i=new Intent(Success.this, DeliveryMainActivity.class);
                 startActivity(i);
                 finish();
             }
