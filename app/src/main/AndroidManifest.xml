@@ -36,7 +36,7 @@
             android:name=".login"
             android:exported="true" />
         <activity android:name=".Activity_cover"/>
-        <activity android:name=".DeliverySuccess"></activity>
+        <activity android:name=".DeliverySuccess"/>
         <activity android:name=".DeliveryUpdate" />
         <activity android:name=".Success" />
         <activity android:name=".EditPData" />
