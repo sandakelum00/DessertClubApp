@@ -57,13 +57,7 @@
     <string name="inquiry_image">inquiry image</string>
 
 
-    <string name="customized_cake">Customized Your Cake</string>
-    <string name="hint_other_flavour">Other flavor</string>
-    <string name="other_flavor" />
-    <string name="other_topping">Other Topping</string>
-    <string name="other_top" />
-    <string name="btn_create_cc">Create</string>
-    <string name="head1">Customized_Details</string>
+
     <string name="string_CF"></string>
     <string name="string_OF"></string>
     <string name="string_CT"></string>
@@ -91,4 +85,14 @@
         <item>Blueberry</item>
         <item>Other</item>
     </string-array>
+
+    <string name="hint_other_flavour">Other flavor</string>
+    <string name="other_flavor" />
+    <string name="other_topping">Other Topping</string>
+    <string name="other_top" />
+    <string name="customized_cake">Customized Your Cake</string>
+    <string name="btn_create_cc">Create</string>
+    <string name="head1">Customized_Details</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
 </resources>

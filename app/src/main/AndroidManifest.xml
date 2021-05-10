@@ -35,7 +35,12 @@
         <activity
             android:name=".login"
             android:exported="true" />
+        <activity android:name=".customizedcake"
+            android:exported="true"/>
+        <activity android:name=".your_customized_details"
+            android:exported="true"/>
         <activity android:name=".Activity_cover">
+
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
