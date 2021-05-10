@@ -71,7 +71,29 @@
     <string name="btn_shopping_cart">Shopping Cart</string>
     <string name="invalid_name">Enter valid name</string>
     <string name="invalid_subject">Enter a valid subject</string>
-    <string name="inquiry">Enter your inquiry</string>
+
+
+    <string name="txtPayment">Payment</string>
+    <string name="txtAccept">We Accept</string>
+    <string name="txtTotal">Total Amount</string>
+    <string name="txtName">Name</string>
+    <string name="txtSecurity">Security Code</string>
+    <string name="txtExpiry">Expiry Date</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnEdit">Edit</string>
+    <string name="btnDelete">Delete</string>
+    <string name="btnConfirm">Confirm</string>
+    <string name="btnView">View Data</string>
+    <string name="btnRetrieve">View Data </string>
+    <string name="txtPhone">Phone Number</string>
+    <string name="txtDelivery">Delivery</string>
+    <string name="txtSuccess">Payment Successfully</string>
+    <string name="btnContinue">Continue</string>
+    <string name="txtStreet">Street</string>
+    <string name="txtCity">City</string>
+    <string name="txtAddAddress">Add Delivery Address</string>
+    <string name="txtProvince">Province</string>
+    <string name="inquiry">Enter Valid name</string>
 
 
     <string-array name="cake_flavors">
