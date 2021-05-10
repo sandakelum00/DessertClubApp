@@ -179,4 +179,28 @@
     <string name="rs_550">Rs.550</string>
     <string name="place_order">Place Order</string>
 
+
+    <string name="txtPayment">Payment</string>
+    <string name="txtAccept">We Accept</string>
+    <string name="txtTotal">Total Amount</string>
+    <string name="txtName">Name</string>
+    <string name="txtAccount">Account Number</string>
+    <string name="txtSecurity">Security Code</string>
+    <string name="txtExpiry">Expiry Date</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnEdit">Edit</string>
+    <string name="btnDelete">Delete</string>
+    <string name="btnConfirm">Confirm</string>
+    <string name="btnView">View Data</string>
+    <string name="btnRetrieve">View Data </string>
+    <string name="txtPhone">Phone Number</string>
+    <string name="txtDelivery">Delivery</string>
+    <string name="txtSuccess">Payment Successfully</string>
+    <string name="btnContinue">Continue</string>
+    <string name="txtStreet">Street</string>
+    <string name="txtCity">City</string>
+    <string name="txtAddAddress">Add Delivery Address</string>
+    <string name="txtProvince">Province</string>
+    <string name="btnPConfirm">Confirm</string>
+
 </resources>

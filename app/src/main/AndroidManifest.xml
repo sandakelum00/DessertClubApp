@@ -39,10 +39,18 @@
             android:exported="true"/>
         <activity android:name=".your_customized_details"
             android:exported="true"/>
-        <activity android:name=".Activity_cover">
+        <activity android:name=".Activity_cover"/>
+
+        <activity android:name=".DeliveryUpdate"></activity>
+        <activity android:name=".Success" />
+        <activity android:name=".EditPData" />
+        <activity android:name=".RetrieveDelivery" />
+        <activity android:name=".DeliveryMainActivity" />
+        <activity android:name=".PMainActivity">
 
 
-            <intent-filter>
+
+        <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
