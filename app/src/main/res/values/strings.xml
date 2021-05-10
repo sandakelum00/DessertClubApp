@@ -92,6 +92,7 @@
         <item>Other</item>
     </string-array>
 
+    <string name="btn">Button</string>
     <string name="pudding_menu">PUDDING</string>
     <string name="cakes_menu">CAKE</string>
     <string name="icecream">ICE CREAM</string>
@@ -136,7 +137,7 @@
     <string name="fudge_price">Rs.4000</string>
     <string name="add_fudge">ADD</string>
 
-    <string name="blueberry1">Blue Berry Ice Cream</string>
+    <string name="blueberry">Blue Berry Ice Cream</string>
     <string name="butterscotch">Butterscotch Ice Cream</string>
     <string name="chocochip">Chocolate Chip Ice Cream</string>
     <string name="oreo">Oreo Ice Cream</string>
@@ -161,6 +162,7 @@
     <string name="pudding_list">Pudding List</string>
     <string name="add_to_cart">Add To Cart</string>
 
+
     <string name="biscuitpudding">Biscuit Pudding</string>
     <string name="rupees250">Rs.250</string>
     <string name="rupees150">Rs.150</string>
@@ -173,5 +175,6 @@
     <string name="total">Total</string>
     <string name="rs_550">Rs.550</string>
     <string name="place_order">Place Order</string>
+
 
 </resources>
