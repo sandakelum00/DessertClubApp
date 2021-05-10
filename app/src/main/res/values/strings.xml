@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Dessert_Club_Application</string>
+
+    <string name="heading_1">Share Your Dessert Love!</string>
+    <string name="image_view">logo</string>
+    <string name="home_button_1">Lets Eat!</string>
+    <string name="login">Login</string>
+    <string name="user_name_email">User Email</string>
+    <string name="hint_username_email">User E-mail</string>
+    <string name="user_password">User Password</string>
+    <string name="hint_password">***************</string>
+    <string name="forgot_password">Forogt Password?</string>
+    <string name="login_button">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="button_forogotpassword">Forgot Password?</string>
+
+
+    <string name="welcome">Welcome</string>
+    <string name="name"></string>
+    <string name="email"></string>
+    <string name="street"></string>
+    <string name="city"></string>
+    <string name="mobile"></string>
+    <string name="password"></string>
+    <string name="confirm_password"></string>
+    <string name="hint_1">Name</string>
+    <string name="hint_2">abc@gmail.com</string>
+    <string name="hint_3">Street</string>
+    <string name="hint_4">City</string>
+    <string name="hint_5">07-12345678</string>
+    <string name="hint_6">********</string>
+    <string name="hint_7">********</string>
+    <string name="button_confirm_register">Register</string>
+    <string name="signUp_form_button">SignUp Form</string>
+
+
+    <string name="forgot_password_Heading">Forgot Password?</string>
+    <string name="text_email"></string>
+    <string name="btn_forogot_update">Update Password</string>
+
+
+    <string name="logo_image">logo</string>
+    <string name="login_user_icon">user icon</string>
+    <string name="myprofile">profile picture</string>
+    <string name="myorders_images">myorders</string>
+    <string name="btn_logout">Logout</string>
+    <string name="image_promo">my promotions</string>
+    <string name="Myprofile">My Profile</string>
+    <string name="my_orders">My Orders</string>
+    <string name="my_promos">My Promos</string>
+    <string name="btn_menu">Menu</string>
+    <string name="menu_heading1">What You Have To Eat!</string>
+    <string name="image_cake">cake</string>
+    <string name="cake">Cakes</string>
+    <string name="pudding_image">pudding</string>
+    <string name="my_inquiries">My Inquires</string>
+    <string name="inquiry_image">inquiry image</string>
+
+
+    <string name="customized_cake">Customized Your Cake</string>
+    <string name="hint_other_flavour">Other flavor</string>
+    <string name="other_flavor" />
+    <string name="other_topping">Other Topping</string>
+    <string name="other_top" />
+    <string name="btn_create_cc">Create</string>
+    <string name="head1">Customized_Details</string>
+    <string name="string_CF"></string>
+    <string name="string_OF"></string>
+    <string name="string_CT"></string>
+    <string name="string_OT"></string>
+    <string name="btn_shopping_cart">Shopping Cart</string>
+    <string name="invalid_name">Enter valid name</string>
+    <string name="invalid_subject">Enter a valid subject</string>
+    <string name="inquiry">Enter your inquiry</string>
+
+
+    <string-array name="cake_flavors">
+        <item>Flavor</item>
+        <item>Chocolate</item>
+        <item>Vanilla</item>
+        <item>Coffee</item>
+        <item>Cheese Cake</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="cake_toppings">
+        <item>Toppings</item>
+        <item>Chocolate Ganache</item>
+        <item>Cashew Nuts</item>
+        <item>Strawberry</item>
+        <item>Blueberry</item>
+        <item>Other</item>
+    </string-array>
+</resources>

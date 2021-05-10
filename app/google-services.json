@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "104168079385",
+    "firebase_url": "https://dessertclubapplication-default-rtdb.firebaseio.com",
+    "project_id": "dessertclubapplication",
+    "storage_bucket": "dessertclubapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104168079385:android:47c56a38e9230d39c5ea88",
+        "android_client_info": {
+          "package_name": "com.example.dessert_club_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104168079385-5lfrpssi4e96u58sqlq9hsfi6lnn3703.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRQOuEf51UAJ9qFnTz9Ov6TIcAJPjix7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104168079385-5lfrpssi4e96u58sqlq9hsfi6lnn3703.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
